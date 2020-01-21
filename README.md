@@ -33,7 +33,7 @@ first it creates database with two tables *cities* and *weather*
 
 then it inserts data to *cities* table
 
-then it fetches data from the url by `city_id` and inserts them to *weather* table
+then it fetches data from the url by `city_id` and checks time of last insert in *weather* table, whether it is more than 1 minute earlier, if so inserts them to *weather* table 
 
 then it saves all data in *weather* table into `fname`.csv file
 
