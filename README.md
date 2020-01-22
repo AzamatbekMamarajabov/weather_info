@@ -7,6 +7,7 @@ first of all create an environment (I used pipenv for that) and install requerem
 
     pip install pipenv
     pipenv install Pipfile
+    pipenv shell
 
 
 then to create a database and see cities data run command
